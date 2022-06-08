@@ -10,6 +10,7 @@ describe('index.js', function () {
       cats.length = 0;
 
       cats.push('Milo', 'Otis', 'Garfield');
+      const cats = ["Milo", "Otis", "Garfield"];
     });
 
     describe('destructivelyAppendCat(name)', function () {
